@@ -62,8 +62,9 @@ export const TestimonialsSection = () => {
           <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-gray-900 to-transparent z-10 pointer-events-none" />
           {/* Testimonials container */}
           <div className="flex gap-8  flex-none overflow-x-auto py-4 -my-4 scrollbar-hide animate-move-left [animation-duration:30s] hover:[animation-play-state:paused]">
+            
             {[...new Array(2)].fill(0).map((_, index) => (
-              <Fragment>
+              <Fragment key={index}>
                 {testimonials.map((testimonial) => (
                   <Card key={testimonial.name} className="max-w-xs p-6 md:p-8 md:max-w-md hover:-rotate-3 transition-transform duration-300">
                     <div className="flex gap-4 items-center  ">
@@ -85,7 +86,6 @@ export const TestimonialsSection = () => {
                   </Card>
                 ))}
               </Fragment>
-
             ))}
 
           </div>

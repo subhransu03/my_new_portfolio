@@ -59,10 +59,10 @@ export const ProjectsSection = () => {
         <div className="flex flex-col mt-10 gap-20 md:mt-20">
           {portfolioProjects.map((project, projectIndex) => (
             <Card key={project.title} className=" p-8 pt-8 md:pt-12 md:px-10 lg:mt-16 lg:px-20 sticky"
-                style={{
-                  top:`calc(64px + ${projectIndex * 64}px)`,
-                }}
-              >
+              style={{
+                top: `calc(64px + ${projectIndex * 64}px)`,
+              }}
+            >
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
                   <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">
@@ -71,11 +71,11 @@ export const ProjectsSection = () => {
                     <span>{project.year}</span>
                   </div>
 
-                  <h3 className="font-serif text-2xl mt-2 md: mt-5 md:text-4xl">{project.title}</h3>
+                  <h3 className="font-serif text-2xl  md: mt-5 md:text-4xl">{project.title}</h3>
                   <hr className="border-t2 border-white/5 mt-4 md:mt-5" />
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">
-                    {project.results.map((result) => (
-                      <li className="flex gap-2 text-sm md:text-base  text-white/50">
+                    {project.results.map((result, index) => (
+                      <li key={index} className="flex gap-2 text-sm md:text-base text-white/50">
                         <CheckcircleIcon className="size-5 md:size-6" />
                         <span>{result.title}</span>
                       </li>
@@ -94,7 +94,7 @@ export const ProjectsSection = () => {
                   <Image
                     src={project.image}
                     alt={project.title}
-                    
+
                     className="mt-8 -mb-4 md:-mb-0 lg:mb-0 lg:scale-125"
                   />
                 </div>
