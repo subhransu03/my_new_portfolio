@@ -20,3 +20,7 @@
 svg {
         fill: currentColor; /* Allows SVGs to use their original colors */
       }
+html {
+        scroll-behavior: smooth;
+ }
+ 

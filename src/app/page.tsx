@@ -14,8 +14,12 @@ export default function Home() {
       <ProjectsSection />
       <TapeSection/>
       <TestimonialsSection/>
-      <AboutSection/>
-      <ContactSection/>
+      <div id="about">
+        <AboutSection />
+      </div>
+      <div id="contact">
+        <ContactSection />
+      </div>
       <Footer/>
     </div>
   );

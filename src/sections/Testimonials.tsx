@@ -52,7 +52,7 @@ export const TestimonialsSection = () => {
         <SectionHeader
           eyebrow="Happy clients"
           title="What clients say about me"
-          descriptioon="Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia id, pariatur voluptatum minus delectus nulla animi rem accusantium beatae?"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia id, pariatur voluptatum minus delectus nulla animi rem accusantium beatae?"
         />
         {/* Add fade effect using mask gradient */}
         <div className="mt-12 lg:mt-20 flex overflow-x-clip  py-4 -my-4 relative">

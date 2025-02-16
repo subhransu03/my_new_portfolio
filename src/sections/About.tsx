@@ -120,7 +120,7 @@ export const AboutSection = () => {
   return (
     <div className="py-20">
       <div className="container">
-        <SectionHeader eyebrow="About me" title="I'm a frontend developer" descriptioon="I specialize in building fast, responsive, and accessible websites." />
+        <SectionHeader eyebrow="About me" title="I'm a frontend developer" description="I specialize in building fast, responsive, and accessible websites." />
         <div className="mt-20 flex flex-col gap-8">
           {/* First Row */}
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5">
