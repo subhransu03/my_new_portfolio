@@ -29,7 +29,7 @@ export const Header = () => {
     <nav className="gap-3 p-3 border border-white/15 bg-white/10 rounded-full backdrop-blur text-lg w-auto">
         <a href="#hero" className="nav-item">Home</a>
         <a href="#about" className="nav-item">About</a>
-        <a href="#about" className="nav-item">Skills</a>
+        <a href="#projects" className="nav-item">Projects</a>
         <a href="#certificates" className="nav-item">Certificates</a>
         <a href="#contact" className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-green-500">Contact</a>
       </nav>

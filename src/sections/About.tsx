@@ -2,6 +2,9 @@
 
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
+import { CardHeader } from "@/components/Cardheader";
+import { ToolboxItems } from "@/components/ToolboxIcons"; // Correct import
+import { motion } from 'framer-motion';
 import bookImage from "@/assets/images/book-cover.png";
 import Image from "next/image";
 import JavascriptIcon from "@/assets/icons/square-js.svg";
@@ -17,13 +20,10 @@ import PostgreSQLIcon from "@/assets/icons/postgresql-svgrepo-com.svg";
 import JavaIcon from "@/assets/icons/java-svgrepo-com.svg";
 import SpringIcon from "@/assets/icons/spring-icon-svgrepo-com.svg";
 import DockerIcon from "@/assets/icons/docker-svgrepo-com.svg";
-import PythonIcon from "@/assets/icons/python-svgrepo-com.svg";
+import PythonIcon from "@/assets/icons/Python.svg";
 import MySqlIcon from "@/assets/icons/mysql-logo-svgrepo-com.svg";
 import mapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
-import { CardHeader } from "@/components/Cardheader";
-import { ToolboxItems } from "@/components/ToolboxIcons"; // Correct import
-import { motion } from 'framer-motion';
 import react from "react";
 const toolboxItems = [
   {
@@ -79,7 +79,7 @@ const toolboxItems = [
     iconType: DockerIcon,
   },
   {
-    title: "python",
+    title: "Python",
     iconType: PythonIcon,
   },
   {
