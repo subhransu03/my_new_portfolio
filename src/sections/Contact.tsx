@@ -16,11 +16,9 @@ export const ContactSection = () => {
       <div className="container mx-auto">
         <div className="bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900 py-8 px-6 md:px-10 rounded-3xl text-center">
           <p className="font-serif text-2xl md:text-3xl lg:text-4xl">
-            Let's create something amazing
+            Let us create something amazing
           </p>
-          <p className="font-serif text-2xl md:text-3xl lg:text-4xl">
-            Let's create something amazing
-          </p>
+          
 
 
 
