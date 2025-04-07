@@ -19,7 +19,7 @@ export const ContactSection = () => {
             Let's create something amazing
           </p>
           <p className="font-serif text-2xl md:text-3xl lg:text-4xl">
-            Let&#39;s create something amazing
+            Let's create something amazing
           </p>
 
 
