@@ -22,6 +22,7 @@ export const ContactSection = () => {
             Let&apos;s create something amazing
           </p>
 
+
           <button
             onClick={handleEmailClick}
             className="text-white border border-gray-900 bg-gray-900 inline-flex items-center gap-2 mt-4 px-4 py-2 rounded-xl text-sm md:text-base lg:text-lg hover:bg-gray-800 transition-colors"
