@@ -1,37 +1,42 @@
-import ArrowRightIcon from "@/assets/icons/arrow-up-right.svg";
+import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 const footerLinks = [
   {
     title: "Linkedin",
-    href: "#",
+    href: "https://linkedin.com/in/subhransusekharsahu",
+    icon: <FaLinkedin />,
   },
   {
     title: "GitHub",
-    href: "#",
+    href: "https://github.com/subhransu03",
+    icon: <FaGithub />,
   },
   {
     title: "Mail",
-    href: "#",
+    href: "mailto:subh03ransu@gmail.com",
+    icon: <FaEnvelope />,
   },
   {
     title: "WhatsApp",
-    href: "#",
+    href: "https://wa.me/9583063258",
+    icon: <FaWhatsapp />,
   },
   {
     title: "Instagram",
-    href: "#",
+    href: "https://instagram.com/yourusername",
+    icon: <FaInstagram />,
   },
 ];
 
 export const Footer = () => {
   return (
-    <footer className="relative -z-10 overflow-x-clip">
+    <footer className="relative z-10 overflow-x-clip">
       {/* Background Gradient */}
       <div className="absolute h-[200px] sm:h-[300px] md:h-[400px] w-full max-w-[1600px] bottom-0 left-1/2 -translate-x-1/2 bg-emerald-300/30 [mask-image:radial-gradient(50%_50%_at_bottom_center,black,transparent)] -z-10"></div>
 
       {/* Footer Content */}
       <div className="container">
-        <div className="border-t border-white/15 py-6 text-sm flex flex-col items-center gap-4 sm:gap-6 md:gap-8">
+        <div className="border-t border-white/15 py-7 text-sm flex flex-col items-center gap-4 sm:gap-6 md:gap-8">
           {/* Copyright Text */}
           <div className="text-white/40 text-center">&copy; 2025 All rights reserved</div>
 
@@ -42,9 +47,11 @@ export const Footer = () => {
                 href={link.href}
                 key={link.title}
                 className="inline-flex items-center gap-2 hover:text-emerald-300 transition-colors duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <span className="font-semibold">{link.title}</span>
-                <ArrowRightIcon className="size-4" />
+                <span className="text-3xl">{link.icon}</span> {/* Render the icon */}
+                <span className="font-semibold text-lg">{link.title}</span>
               </a>
             ))}
           </nav>
