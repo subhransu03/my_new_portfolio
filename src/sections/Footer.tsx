@@ -23,7 +23,7 @@ const footerLinks = [
   },
   {
     title: "Instagram",
-    href: "https://instagram.com/yourusername",
+    href: "https://instagram.com/isubhransu_sekhar",
     icon: <FaInstagram />,
   },
 ];
