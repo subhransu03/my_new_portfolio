@@ -52,28 +52,28 @@ const certifications = [
     title: 'Google Cloud Computing Foundations Certificate',
     description:
       'This certificate program helps learners develop technical proficiency in cloud computing. This certificate is an ideal foundation for diverse career paths including those in IT infrastructure, cloud engineering, and cloud-native application development.',
-    image: '/assets/certifications/google-cloud-computing-foundations-certificate.png',
+    image: '/assets/certifications/GCP.png',
     verifyUrl: 'https://www.credly.com/badges/56a93fec-4660-4321-9a64-a42445cc5884/public_url',
   },
   {
     title: 'Google UX Design Professional Certificate',
     description:
       'Those who earn the Google UX Design Professional Certificate have completed seven courses, developed by Google, that include hands-on, practice-based assessments and are designed to prepare them for introductory-level roles in UX design.',
-    image: '/assets/certifications/google UIUX certified_page.jpg',
+    image: '/assets/certifications/UIUX.jpg',
     verifyUrl: 'https://coursera.org/share/eaf448f73bc61e5ee47cbe5b08c17049',
   },
   {
     title: 'Database Management Systems – IIT Kharagpur (NPTEL)',
     description:
       'Completed an 8-week certification course covering relational models, SQL, normalization, query optimization, transactions, and multi-tier application development. Gained practical experience through hands-on assignments using MySQL and explored design and implementation of database-driven applications.',
-    image: '/assets/certifications/Data Base Management System (1).png',
+    image: '/assets/certifications/DBMS.png',
     verifyUrl: 'https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS91S4307027510193404',
   },
   {
     title: 'Data Science for Engineers – IIT Madras (NPTEL)',
     description:
       'Completed an 8-week certification course under Prof. Rengasamy and Prof. Narasimhan, covering R programming, linear algebra, statistics, optimization, and foundational data science algorithms. Gained hands-on experience through practical assignments and a capstone case study aligned with industry use cases.',
-    image: '/assets/certifications/Data Science For Engineers_page-0001.jpg',
+    image: '/assets/certifications/DS.jpg',
     verifyUrl: 'https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS97S3514053310123604',
   },
   {
