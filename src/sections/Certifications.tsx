@@ -8,42 +8,42 @@ const certifications = [
     title: 'SAP Certified Associate - Back-End Developer - ABAP Cloud',
     description:
       'This certification verifies that you possess ABAP programming language the cores based on ABAP RESTful Application Programming Model on SAP Business Technology Platform and principles of building custom extensions in SAP S/4HANA Cloud required of the back-end developer profile and proves that you have an overall understanding and in‐depth skills to participate as a member of project team in a mentored role.',
-    image: '/assets/certifications/ABAP.jpg',
+    image: '/assets/certifications/abap.jpg',
     verifyUrl: 'https://www.credly.com/badges/6cd88a2b-02e3-45d5-9cfc-a06219aad4f9/public_url',
   },
   {
     title: 'SAP Certified Associate - SAP Fiori Application Developer',
     description:
       'This certification verifies that you possess the required skills in the area of SAP Fiori application development as it pertains to the Frontend Developer profile. This certification builds on the basic knowledge gained by a developer from formal SAP LEarning training and preferably refined by practical experience within a SAP Fiori application development project team in a mentored role. This is an entry level certification.',
-    image: '/assets/certifications/FIORI.jpg',
+    image: '/assets/certifications/fiori.jpg',
     verifyUrl: 'https://www.credly.com/badges/020d6e76-edc0-4241-9ccd-bd3e66ced371/public_url',
   },
   {
     title: 'SAP Certified Associate - Business Process Integration with SAP S/4HANA',
     description:
       'This certification verifies that you possess the core skills about business processes and their integration in SAP S/4HANA. The certification is recommended as an entry-level qualification to allow consultants and application users to get acquainted with SAP S/4HANA end-to-end business process the cores.',
-    image: '/assets/certifications/IBP.jpg',
+    image: '/assets/certifications/ibp.jpg',
     verifyUrl: 'https://www.credly.com/badges/7f3d79c2-b1ba-4b9d-8528-fd9adeb9725b/public_url',
   },
   {
     title: 'SAP Certified Associate - SAP Generative AI Developer',
     description:
       'This certification verifies that you understand SAP’s Business AI capabilities and have the skills to extend SAP BTP applications, while leveraging leading Large Language Models(LLMs), using SAP AI Core/SAP AI Launchpad and SAP’s generative AI hub.',
-    image: '/assets/certifications/GenAI.jpg',
+    image: '/assets/certifications/genai.jpg',
     verifyUrl: 'https://www.credly.com/badges/0a99950c-ee90-4246-9ab1-df9487f51f02/public_url',
   },
   {
     title: 'Microsoft Certified: Azure AI Fundamentals',
     description:
       'Earners of the Azure AI Fundamentals certification have demonstrated foundational knowledge of machine learning (ML) and artificial intelligence (AI) concepts and related Microsoft Azure services.',
-    image: '/assets/certifications/MS_AZ_AI.jpg',
+    image: '/assets/certifications/ms_az_ai.jpg',
     verifyUrl: 'https://www.credly.com/badges/a817891d-d5b7-459b-871d-372ea2568cfa/public_url',
   },
   {
     title: 'Microsoft Certified: Azure Fundamentals',
     description:
       'Earners of the Azure Fundamentals certification have demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.',
-    image: '/assets/certifications/MS_AZ.jpg',
+    image: '/assets/certifications/ms_az.jpg',
     verifyUrl: 'https://www.credly.com/badges/96df5238-e829-495f-91c3-b07017817e07/public_url',
   },
 
@@ -52,28 +52,28 @@ const certifications = [
     title: 'Google Cloud Computing Foundations Certificate',
     description:
       'This certificate program helps learners develop technical proficiency in cloud computing. This certificate is an ideal foundation for diverse career paths including those in IT infrastructure, cloud engineering, and cloud-native application development.',
-    image: '/assets/certifications/GCP.png',
+    image: '/assets/certifications/gcp.png',
     verifyUrl: 'https://www.credly.com/badges/56a93fec-4660-4321-9a64-a42445cc5884/public_url',
   },
   {
     title: 'Google UX Design Professional Certificate',
     description:
       'Those who earn the Google UX Design Professional Certificate have completed seven courses, developed by Google, that include hands-on, practice-based assessments and are designed to prepare them for introductory-level roles in UX design.',
-    image: '/assets/certifications/UIUX.jpg',
+    image: '/assets/certifications/uiux.jpg',
     verifyUrl: 'https://coursera.org/share/eaf448f73bc61e5ee47cbe5b08c17049',
   },
   {
     title: 'Database Management Systems – IIT Kharagpur (NPTEL)',
     description:
       'Completed an 8-week certification course covering relational models, SQL, normalization, query optimization, transactions, and multi-tier application development. Gained practical experience through hands-on assignments using MySQL and explored design and implementation of database-driven applications.',
-    image: '/assets/certifications/DBMS.png',
+    image: '/assets/certifications/dbms.png',
     verifyUrl: 'https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS91S4307027510193404',
   },
   {
     title: 'Data Science for Engineers – IIT Madras (NPTEL)',
     description:
       'Completed an 8-week certification course under Prof. Rengasamy and Prof. Narasimhan, covering R programming, linear algebra, statistics, optimization, and foundational data science algorithms. Gained hands-on experience through practical assignments and a capstone case study aligned with industry use cases.',
-    image: '/assets/certifications/DS.jpg',
+    image: '/assets/certifications/ds.jpg',
     verifyUrl: 'https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS97S3514053310123604',
   },
   {
