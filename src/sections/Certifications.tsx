@@ -8,42 +8,42 @@ const certifications = [
     title: 'SAP Certified Associate - Back-End Developer - ABAP Cloud',
     description:
       'This certification verifies that you possess ABAP programming language the cores based on ABAP RESTful Application Programming Model on SAP Business Technology Platform and principles of building custom extensions in SAP S/4HANA Cloud required of the back-end developer profile and proves that you have an overall understanding and in‐depth skills to participate as a member of project team in a mentored role.',
-    image: '/assets/certifications/SAP ABAP subhransu sekhar sahu.jpg',
+    image: '/assets/certifications/ABAP.jpg',
     verifyUrl: 'https://www.credly.com/badges/6cd88a2b-02e3-45d5-9cfc-a06219aad4f9/public_url',
   },
   {
     title: 'SAP Certified Associate - SAP Fiori Application Developer',
     description:
       'This certification verifies that you possess the required skills in the area of SAP Fiori application development as it pertains to the Frontend Developer profile. This certification builds on the basic knowledge gained by a developer from formal SAP LEarning training and preferably refined by practical experience within a SAP Fiori application development project team in a mentored role. This is an entry level certification.',
-    image: '/assets/certifications/Subhransu_sekhar_sahu_FIORI_certificate_pages-to-jpg-0001.jpg',
+    image: '/assets/certifications/FIORI.jpg',
     verifyUrl: 'https://www.credly.com/badges/020d6e76-edc0-4241-9ccd-bd3e66ced371/public_url',
   },
   {
     title: 'SAP Certified Associate - Business Process Integration with SAP S/4HANA',
     description:
       'This certification verifies that you possess the core skills about business processes and their integration in SAP S/4HANA. The certification is recommended as an entry-level qualification to allow consultants and application users to get acquainted with SAP S/4HANA end-to-end business process the cores.',
-    image: '/assets/certifications/IBP_Subhransu_sekhar NIST_page-0001.jpg',
+    image: '/assets/certifications/IBP.jpg',
     verifyUrl: 'https://www.credly.com/badges/7f3d79c2-b1ba-4b9d-8528-fd9adeb9725b/public_url',
   },
   {
     title: 'SAP Certified Associate - SAP Generative AI Developer',
     description:
       'This certification verifies that you understand SAP’s Business AI capabilities and have the skills to extend SAP BTP applications, while leveraging leading Large Language Models(LLMs), using SAP AI Core/SAP AI Launchpad and SAP’s generative AI hub.',
-    image: '/assets/certifications/subhransu_sekhar_sahu_SAP_GenAI_page-0001.jpg',
+    image: '/assets/certifications/GenAI.jpg',
     verifyUrl: 'https://www.credly.com/badges/0a99950c-ee90-4246-9ab1-df9487f51f02/public_url',
   },
   {
     title: 'Microsoft Certified: Azure AI Fundamentals',
     description:
       'Earners of the Azure AI Fundamentals certification have demonstrated foundational knowledge of machine learning (ML) and artificial intelligence (AI) concepts and related Microsoft Azure services.',
-    image: '/assets/certifications/microsoft azure AI certificate_page-0001.jpg',
+    image: '/assets/certifications/MS_AZ_AI.jpg',
     verifyUrl: 'https://www.credly.com/badges/a817891d-d5b7-459b-871d-372ea2568cfa/public_url',
   },
   {
     title: 'Microsoft Certified: Azure Fundamentals',
     description:
       'Earners of the Azure Fundamentals certification have demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.',
-    image: '/assets/certifications/microsoft AZ fundamentals_page-0001.jpg',
+    image: '/assets/certifications/MS_AZ.jpg',
     verifyUrl: 'https://www.credly.com/badges/96df5238-e829-495f-91c3-b07017817e07/public_url',
   },
 
